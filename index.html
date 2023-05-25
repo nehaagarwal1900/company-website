@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociio.In</title>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+    <!--Font Awesome icon link-->
+    <link rel="stylesheet" href="FontAwesome/css/all.min.css">
+
+    <!--Bootstrap 5 css cdn link-->
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap5/css/bootstrap.css">
+
+    <!--Custom css link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <!--Jquery cdn link-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('#header').load('blog.html');
+        });
+    </script>
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-------------Start of the slider---------->
+    <div class="container-wrap">
+        <section id="header">
+            <div id="slider">
+                <figure>
+                    <div class="first-slide">
+                        <img src="./img/process.jpg" alt="not available">
+                        <div class="text-box">
+                            <h1 style="text-align:center;"><span style="color:darkgoldenrod;">THE BEST</span>
+                                DIGITAL MARKETING COMPANY
+                            </h1>
+                            <h1 style="text-align: center;"><span style="color:darkgoldenrod;">WE</span>
+                                UNDERSTAND YOUR NEEDS</h1>
+                        </div>
+                    </div>
+                    <div class="second-slide">
+                        <img src="./img/goran-fourth.jpg" alt="not available">
+
+                    </div>
+                    <div class="third-slide">
+                        <img src="./img/webdevelopment.jpg" alt="not available">
+
+                    </div>
+                    <div class="fourth-slide">
+                        <img src="./img/jesscoding-design (1).jpg" alt="not available">
+                    </div>
+                    <div class="fifth-slide">
+                        <img src="./img/jesscoding-design (1).jpg" alt="not available">
+
+                    </div>
+                </figure>
+            </div>
+    </div>
+
+    <!-------------End of the slider---------->
+
+    <!-----------------start of navbar------->
+    <div class="row">
+        <nav class="navbar  navbar-expand-md  fixed-top">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="col-md-3 logo" style="cursor: pointer;">
+                <a href="index.html">
+                    <h1>Company <span> . IN</span></h1>
+                </a>
+            </div>
+            <div class=" col-md-6 menu-item style=" float-left;">
+                <ul class="navbar-nav  nav-justified">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 font-icon style=" float-left;">
+
+                <i class=" fab fa-whatsapp-square" style="color:green;line-height: 10px;"><span
+                        style="color:green;font-size: 15px;">+91 9800678936</span></i><br>
+                <i class="fas fa-phone-square-alt" style="color:#050944;"><span style="color:#050944;font-size: 15px;">
+                        +91 9569785943</span></i>
+            </div>
+        </nav>
+    </div>
+    <a href="header.html"></a>
+    <!-----------------End of navbar------->
+    </section>
+    <!-------------End of header section------------>
+
+    <!----------------start of Company Services------>
+
+    <section id="services">
+        <div class="container-wrap services">
+            <div class="row">
+                <div class="service-box">
+                    <h1 style="font-size: 72px; text-align: center;">DIGITAL <span>EXPERTISE</span></h1>
+                    <div class="row service">
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="far fa-copyright"></i>
+                                </div>
+                                <h4>Branding</h4>
+                                <p>Finding your voice.</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="fab fa-servicestack"></i>
+                                </div>
+                                <h4>Creative Service</h4>
+                                <p>Idea that are limitless.</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Creative Incredile Digital Experience .</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="fas fa-hashtag"></i>
+                                </div>
+                                <h4 style="font-size: 20px;">Social Media Marketing</h4>
+                                <p>Connections That Sparks Engagement.</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row service">
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="fab fa-buysellads"></i>
+                                </div>
+                                <h4>Content Marketing</h4>
+                                <p>Make a Difference Create an Impact</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="fab fa-google-drive"></i>
+                                </div>
+                                <h4>Paid Ads</h4>
+                                <p>Experience Dynamic Results.</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h4>Web & Mobile App Development</h4>
+                                <p>Building Custom Applications</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3" text-center>
+                            <div class="card">
+                                <div class="icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <h4>Email Prospecting & Drip Marketing </h4>
+                                <p>Reach & Nuture Your Audience.</p>
+                                <a href="#" style="text-decoration:none;color:darkgoldenrod">Read More-></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------End of Company services---------------->
+
+    <!---------------- Start of About us------------------>
+    <section id="about-section">
+        <div class="container-wrap">
+            <div class="about-section">
+                <div class="inner-container">
+                    <h1>About us </h1>
+                    <p class="text">
+                        For the past 10 years, we have helped businesses create their brand presence and achieve their
+                        goals. Our process is designed to empower your brand and outfit your business with the marketing
+                        tools needed to succeed. Talk to us today about how we can support your growth, limit your
+                        turnover, and put you on a solid track to success and profit...
+                    </p>
+                    <button>Read more</button><br>
+                    <div class="font-icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-----------------End of About us-------------------->
+
+
+
+    <!----------------Start of happy client section---------------->
+    <section id="testimonials">
+        <div class="container-wrap">
+            <div class="inner">
+                <h1>Testimonials</h1>
+                <div class="border"></div>
+                <div class="row">
+                    <div class="col card">
+                        <div class="testimonial">
+                            <img src="./img/pic1.jpg" alt="not available">
+                            <div class="name">Full Name</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Sociio.in is a remarkable Digital Marketing Agency.his team are top
+                                notch professionals and among the hardest working, most creative and innovative people -
+                                They know their stuff, inside and out and have consistently delivered amazing results. I
+                                highly recommend their services.”!"</p>
+                        </div>
+                    </div>
+                    <div class="col card">
+                        <div class="testimonial">
+                            <img src="./img/pic2.jpg" alt="not available">
+                            <div class="name">Full Name</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>"Your Team Rocks! Just a short note to thank you for the help this morning. Your team is
+                                superb, and they were very helpful! Kudos to all, and I want to express my gratitude to
+                                you."!</p>
+                        </div>
+                    </div>
+                    <div class="col card">
+                        <div class="testimonial">
+                            <img src="./img/pic3.jpg" alt="not available">
+                            <div class="name">Full Name</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>"Outside GC relies on Sociio.in for its digital marketing expertise, particularly in the
+                                areas of SEO and social media marketing. Their team is knowledgeable, responsive and
+                                committed to supporting our initiatives"!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!------------------End of happy client section---------------->
+
+
+    <!-------------Start of contact us-------------->
+    <section id="contact-us">
+        <div class="container-wrap contact">
+            <div class="content">
+                <h2>CONTACT <span>US</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum unde aut placeat nihil, non at
+                    vitae soluta dignissimos. Dolor?</p>
+            </div>
+            <div class="container">
+                <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Company Address </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91 9876857489</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="far fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>Company@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="open-button" onclick="openForm()">Open Form</button>
+
+                <div class="form-popup" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1>Login</h1>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit" class="btn">Login</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------End of contact us----------------->
+    </div>
+    <!--Bootstrap 5 js cdn link-->
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
